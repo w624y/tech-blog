@@ -10,8 +10,6 @@ const navLinks = [
 ];
 
 export default function Layout() {
-  const location = useLocation();
-
   return (
     <div className="min-h-screen bg-[#FAFAFA]">
       {/* Navigation */}
