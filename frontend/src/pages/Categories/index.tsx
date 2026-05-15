@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import {
-  ArrowLeft, Eye, MessageCircle,
+  Eye, MessageCircle,
   Code2, Server, Database, Cloud, ChevronLeft, ChevronRight
 } from 'lucide-react';
 import { articleApi, categoryApi } from '../../services/api';

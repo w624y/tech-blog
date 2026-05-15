@@ -1,4 +1,4 @@
-import { Outlet, Link, useLocation } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 import { Code, Search, Settings, Home, FileText, Folder, Tag, User } from 'lucide-react';
 
 const navLinks = [

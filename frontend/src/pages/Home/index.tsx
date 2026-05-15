@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import {
   Sparkles, BookOpen, User, ArrowRight,
-  Calendar, Eye, Code2, Server, Database, Cloud,
-  Tag as TagIcon, Search
+  Calendar, Eye, Code2, Server, Database, Cloud
 } from 'lucide-react';
 import { articleApi } from '../../services/api';
 import type { Article } from '../../types';

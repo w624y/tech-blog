@@ -1,7 +1,7 @@
 import { Outlet, Link, useLocation } from 'react-router-dom';
 import { 
   FileText, Folder, Tag, Home, Settings, 
-  BarChart3, Users, MessageSquare, ChevronLeft
+  BarChart3, Users, MessageSquare
 } from 'lucide-react';
 
 const menuItems = [

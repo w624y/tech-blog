@@ -3,8 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import {
   Calendar, Eye, User, ArrowLeft, Share2,
-  ThumbsUp, MessageCircle, Tag, Clock,
-  ChevronLeft, ChevronRight
+  ThumbsUp, MessageCircle, Tag, Clock
 } from 'lucide-react';
 import { articleApi } from '../../services/api';
 import type { Article } from '../../types';
@@ -209,7 +208,7 @@ export default function ArticleDetail() {
           <div className="mt-16 pt-8 border-t border-gray-100">
             <h3 className="font-display text-2xl font-bold text-gray-900 mb-8">相关文章推荐</h3>
             <div className="grid md:grid-cols-3 gap-6">
-              {relatedArticles.map((related, index) => (
+              {relatedArticles.map((related) => (
                 <Link
                   key={related.id}
                   to={`/article/${related.id}`}

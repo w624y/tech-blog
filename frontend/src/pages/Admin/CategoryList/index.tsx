@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Table, Button, Modal, Form, Input, message, Popconfirm } from 'antd';
 import { Plus, Pencil, Trash2, Folder } from 'lucide-react';
 import { categoryApi } from '../../../services/api';
@@ -15,7 +14,6 @@ interface Category {
 }
 
 export default function CategoryList() {
-  const navigate = useNavigate();
   const [categories, setCategories] = useState<Category[]>([]);
   const [loading, setLoading] = useState(true);
   const [modalVisible, setModalVisible] = useState(false);
